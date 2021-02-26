@@ -66,3 +66,9 @@ chromedriver.log
 ### misc
 .DS_Store
 /composer.lock
+
+### client-development
+/shopware/
+/*.sql
+/*.gz
+/*.zip

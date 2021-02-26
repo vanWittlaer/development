@@ -1,10 +1,10 @@
-FROM webdevops/php-apache:7.4
+FROM webdevops/php-apache-dev:7.4
 
 COPY wait-for-it.sh /usr/local/bin/
 
 ENV COMPOSER_HOME=/.composer
 ENV NPM_CONFIG_CACHE=/.npm
-ENV WEB_DOCUMENT_ROOT=/app/public
+ENV WEB_DOCUMENT_ROOT=/app/shopware/public
 ARG USER_ID
 ARG GROUP_ID
 
